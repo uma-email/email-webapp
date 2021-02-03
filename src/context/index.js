@@ -1,4 +1,4 @@
-import compose from 'utils/compose'
+import compose from '../utils/compose'
 import { DraftsWrapper } from './drafts'
 import { UserWrapper } from './user'
 import { MailsWrapper } from './mails'

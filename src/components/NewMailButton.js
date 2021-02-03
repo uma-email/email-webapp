@@ -2,7 +2,7 @@ import React, { useCallback } from 'react'
 import { withStyles, Fab } from '@material-ui/core'
 import AddIcon from '@material-ui/icons/Add'
 
-import useGmailAPI from 'utils/hooks/gmail_api'
+import useGmailAPI from '../utils/hooks/gmail_api'
 
 const styles = () => ({
   root: {

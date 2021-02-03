@@ -3,7 +3,6 @@ import {
   withStyles, Accordion, AccordionSummary, AccordionDetails, Typography, Avatar, Chip, colors,
 } from '@material-ui/core'
 import InboxIcon from '@material-ui/icons/Inbox'
-import Message from 'components/Mail/Message'
 import DeleteIcon from '@material-ui/icons/Delete'
 import CheckIcon from '@material-ui/icons/Check'
 import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile'
@@ -11,9 +10,11 @@ import InsertPhotoIcon from '@material-ui/icons/InsertPhoto'
 
 import classNames from 'classnames'
 
-import useGmailAPI from 'utils/hooks/gmail_api'
+import Message from './Message'
 
-import MailsContext from 'context/mails'
+import useGmailAPI from '../../utils/hooks/gmail_api'
+
+import MailsContext from '../../context/mails'
 import { threadSharedStyles } from './styles'
 
 const styles = (theme) => ({

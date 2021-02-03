@@ -4,10 +4,10 @@ import {
 } from '@material-ui/core'
 import DeleteIcon from '@material-ui/icons/Delete'
 
-import UserContext from 'context/user'
-import useGmailAPI from 'utils/hooks/gmail_api'
+import UserContext from '../../context/user'
+import useGmailAPI from '../../utils/hooks/gmail_api'
 
-import parsePayload from 'utils/mails/parsePayload'
+import parsePayload from '../../utils/mails/parsePayload'
 import { threadSharedStyles } from './styles'
 
 const styles = (theme) => ({

@@ -20,9 +20,9 @@ import MinimizeIcon from '@material-ui/icons/Minimize'
 import classNames from 'classnames'
 import { useTranslation } from 'react-i18next'
 
-import ContactsContext from 'context/contacts'
-import DraftsContext from 'context/drafts'
-import useGmailAPI from 'utils/hooks/gmail_api'
+import ContactsContext from '../context/contacts'
+import DraftsContext from '../context/drafts'
+import useGmailAPI from '../utils/hooks/gmail_api'
 
 const styles = () => ({
   root: {

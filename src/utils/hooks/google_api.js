@@ -1,6 +1,6 @@
 import { useContext, useCallback } from 'react'
-import UserContext from 'context/user'
-import ContactsContext from 'context/contacts'
+import UserContext from '../../context/user'
+import ContactsContext from '../../context/contacts'
 
 const { gapi } = window
 

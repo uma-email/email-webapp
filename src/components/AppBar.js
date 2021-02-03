@@ -15,8 +15,8 @@ import MenuIcon from '@material-ui/icons/Menu'
 import SearchIcon from '@material-ui/icons/Search'
 import { useTranslation } from 'react-i18next'
 
-import useGoogleAPI from 'utils/hooks/google_api'
-import UserContext from 'context/user'
+import useGoogleAPI from '../utils/hooks/google_api'
+import UserContext from '../context/user'
 
 const AppBar = ({ classes, toggleSideBar }) => {
   const { t } = useTranslation(['actions'])
@@ -30,7 +30,7 @@ const AppBar = ({ classes, toggleSideBar }) => {
           <MenuIcon />
         </IconButton>
         <Typography variant='h6' color='inherit' className={classes.grow}>
-          Email App
+          Federizer
         </Typography>
         <Paper className={classes.searchField} elevation={1}>
           <span className={classes.searchIcon} aria-label='Search'>

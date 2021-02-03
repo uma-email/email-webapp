@@ -13,8 +13,8 @@ import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer'
 import FlagIcon from '@material-ui/icons/Flag'
 import CheckIcon from '@material-ui/icons/Check'
 
-import Thread from 'components/Mail/Thread'
-import useGmailAPI from 'utils/hooks/gmail_api'
+import Thread from './Thread'
+import useGmailAPI from '../../utils/hooks/gmail_api'
 import MailsContext from '../../context/mails'
 
 import { threadSharedStyles } from './styles'

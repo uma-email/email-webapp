@@ -9,9 +9,9 @@ import DeleteIcon from '@material-ui/icons/Delete'
 import AccountBoxIcon from '@material-ui/icons/AccountBox'
 import EmailIcon from '@material-ui/icons/Email'
 import { useTranslation } from 'react-i18next'
-import LabelsContext from 'context/labels'
+import LabelsContext from '../../context/labels'
 
-import AppBar from 'components/AppBar'
+import AppBar from '../AppBar'
 import Tab from './Tab'
 
 const SideBar = ({ classes, open }) => {

@@ -1,7 +1,7 @@
 import React, { useCallback, useState, useContext } from 'react'
 import { withStyles } from '@material-ui/core'
 import classNames from 'classnames'
-import DraftsContext from 'context/drafts'
+import DraftsContext from '../context/drafts'
 import AppBar from './AppBar'
 import SideBar from './SideBar'
 import NewMailButton from './NewMailButton'

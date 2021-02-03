@@ -2,12 +2,12 @@ import { useContext, useCallback } from 'react'
 
 import debounce from 'lodash.debounce'
 
-import UserContext from 'context/user'
-import MailsContext from 'context/mails'
-import DraftsContext from 'context/drafts'
-import LabelsContext from 'context/labels'
-import useGoogleAPI from 'utils/hooks/google_api'
-import encode from 'utils/mails/encode'
+import UserContext from '../../context/user'
+import MailsContext from '../../context/mails'
+import DraftsContext from '../../context/drafts'
+import LabelsContext from '../../context/labels'
+import useGoogleAPI from './google_api'
+import encode from '../mails/encode'
 
 const useGmailAPI = () => {
   const { user } = useContext(UserContext)

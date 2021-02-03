@@ -1,13 +1,14 @@
 import React, { useEffect, useContext } from 'react'
 
-import withProvider from 'context'
-import UserContext from 'context/user'
 import { hot } from 'react-hot-loader/root'
 
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 import { blueGrey } from '@material-ui/core/colors'
 
-import debug from 'utils/debug'
+import withProvider from './context'
+import UserContext from './context/user'
+
+import debug from './utils/debug'
 import useGoogleAPI from './utils/hooks/google_api'
 
 import AppRouter from './AppRouter'
@@ -52,7 +53,7 @@ const App = () => {
       <AppRouter />
     </MuiThemeProvider>
   ) : (
-      <Login />
+    <Login />
   )
 }
 

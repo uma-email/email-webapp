@@ -1,12 +1,12 @@
 import React from 'react'
 import { withStyles } from '@material-ui/core'
 
-import useProcessedMails from 'utils/hooks/processed_mails'
+import useProcessedMails from '../../utils/hooks/processed_mails'
 // import useGmailAPI from 'utils/hooks/gmail_api'
-import Thread from 'components/Mail/Thread'
+import Thread from '../../components/Mail/Thread'
 // import ReloadButton from 'components/ReloadButton'
 
-import styles from 'pages/style'
+import styles from '../style'
 
 const Trash = ({ classes }) => {
   const processed = useProcessedMails({ includes: ['TRASH'], aggregate: false })

@@ -7,9 +7,9 @@ import {
 
 import { v1 as uuid } from 'uuid'
 
-import MailsContext from 'context/mails'
-import useGmailAPI from 'utils/hooks/gmail_api'
-import processHTMLContent from 'utils/mails/processHTMLContent'
+import MailsContext from '../../../context/mails'
+import useGmailAPI from '../../../utils/hooks/gmail_api'
+import processHTMLContent from '../../../utils/mails/processHTMLContent'
 import Header from './Header'
 
 const styles = () => ({

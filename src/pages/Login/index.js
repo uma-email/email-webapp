@@ -1,7 +1,7 @@
 import React from 'react'
 import { withStyles, Button } from '@material-ui/core'
-import useGoogleAPI from 'utils/hooks/google_api'
 import { useTranslation } from 'react-i18next'
+import useGoogleAPI from '../../utils/hooks/google_api'
 
 const styles = () => ({
   root: {

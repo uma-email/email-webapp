@@ -2,14 +2,14 @@ import React, { useEffect } from 'react'
 import { BrowserRouter, Switch } from 'react-router-dom'
 import { Route } from 'react-router'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import Layout from 'components/Layout'
+import Layout from './components/Layout'
 
-import Inbox from 'pages/Inbox'
-import Done from 'pages/Done'
-import Drafts from 'pages/Drafts'
-import Trash from 'pages/Trash'
+import Inbox from './pages/Inbox'
+import Done from './pages/Done'
+import Drafts from './pages/Drafts'
+import Trash from './pages/Trash'
 
-import useGmailAPI from 'utils/hooks/gmail_api'
+import useGmailAPI from './utils/hooks/gmail_api'
 
 const Dummy = (name) => () => <div>{name}</div>
 

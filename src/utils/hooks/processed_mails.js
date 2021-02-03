@@ -1,12 +1,12 @@
 import { useContext, useCallback } from 'react'
-import MailsContext from 'context/mails'
-import LabelsContext from 'context/labels'
-import compose from 'utils/compose'
-import filterByLabel from 'utils/mails/threads/filterByLabel'
-import markPrimaryLabel from 'utils/mails/threads/markPrimaryLabel'
-import extract from 'utils/mails/threads/extract'
-import classify from 'utils/mails/threads/classify'
-import groupByDate from 'utils/mails/threads/groupByDate'
+import MailsContext from '../../context/mails'
+import LabelsContext from '../../context/labels'
+import compose from '../compose'
+import filterByLabel from '../mails/threads/filterByLabel'
+import markPrimaryLabel from '../mails/threads/markPrimaryLabel'
+import extract from '../mails/threads/extract'
+import classify from '../mails/threads/classify'
+import groupByDate from '../mails/threads/groupByDate'
 
 const map = (func) => (array) => array.map(func)
 

@@ -1,4 +1,4 @@
-import parsePayload from 'utils/mails/parsePayload'
+import parsePayload from '../parsePayload'
 
 export default ({ id, messages }) => ({
   id,
